@@ -1,0 +1,59 @@
+---
+layout: default
+title: Research
+---
+	<h1>{{ page.title }}</h1>
+	<ul class="posts">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+<script>
+$(document).ready(
+	function(){
+	$("#refs_full").hide();	
+	$.get("./refs.html", function (data) {
+
+		$("#refs_full").html( data );
+		
+		$(".bibtexitem").each(function ( index ) {
+			var para = document.createElement("P");
+			var link = document.createElement("a")
+			var t = document.createTextNode( $( this ).html() );
+			para.innerHTML = $( this ).html();	
+			para.setAttribute('class', "ref");
+			para.setAttribute('id', index)
+			$("#refs_display").append(para);
+			
+			var para2 = document.createElement("P");
+			para2.setAttribute('class', "abstract");
+			para2.setAttribute('id', "abst"+index);
+			$("#refs_display").append(para2);
+			$("#abst"+index).hide();
+
+			var para2 = document.createElement("P");
+			para2.setAttribute('class', "bib");
+			para2.setAttribute('id', "bib"+index);
+			$("#refs_display").append(para2);
+			$("#bib"+index).hide();
+			
+		});		
+
+	$.get("./refs_abstracts.html", function (data) {
+		$("#refs_full").html( data );
+		$(".bibtexitem").each(function ( index ) {
+			$("#abst"+index).html($(this).find("blockquote").text())
+			$("#abst"+index).css({"padding-left": "5em"});
+			$("#abst"+index).css({"font-size": "14px"});
+		});
+	});
+
+	$.get("./refs_bib.html", function (data) {
+		$("#refs_full").html( data );
+		$("a + pre").each(function ( index ) {
+			var bib = $(this).text().replace(/,\n/g, ',<br />') ;
+			$("#bib"+index).html( bib );
+			$("#bib"+index).css({"padding-left": "5em"});
+		});
+	});
+
+
+	</ul>
