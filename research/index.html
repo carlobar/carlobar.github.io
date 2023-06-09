@@ -3,7 +3,7 @@ layout: default
 title: Research
 ---
 	<h1>{{ page.title }}</h1>
-	<ul class="posts">
+	<ul class="blurb">
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
 <script>
@@ -55,5 +55,33 @@ $(document).ready(
 		});
 	});
 
+		//para2.innerHTML = "test"+index;
+		
+		$("a").click(function (e) {
+			if ($(this).parent().attr("class") == "ref"){
+				
+				if($(this).text() == "bib"){
+					e.preventDefault();
+					var index = $(this).parent().attr("id");
+					$("#bib"+index).toggle();
+				}
+				if($(this).text() == "Abstract"){
+					e.preventDefault();
+					var index = $(this).parent().attr("id");
+					$("#abst"+index).toggle();
+				}
+				
+			
+			}
+		});
+		
+	//$("#refs_display").show();				
+	});		
+	
+
+	
+	
+}); 
+</script>		
 
 	</ul>
