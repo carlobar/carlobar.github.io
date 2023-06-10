@@ -5,8 +5,11 @@ title: Research
 	<h1>{{ page.title }}</h1>
 	<ul class="blurb">
 
+	<!--
 	{% include refs_nl.html %}
 	{% include refs_only_abstract.html %}
+	-->
+
 
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
@@ -38,8 +41,7 @@ $(document).ready(
 			para2.setAttribute('id', "bib"+index);
 			$("#refs_display").append(para2);
 			$("#bib"+index).hide();
-			
-		});		
+		});
 
 	$.get("./refs_abstracts.html", function (data) {
 		$("#refs_full").html( data );
@@ -59,9 +61,6 @@ $(document).ready(
 		});
 	});
 
-
-		//para2.innerHTML = "test"+index;
-		
 		$("a").click(function (e) {
 			if ($(this).parent().attr("class") == "ref"){
 				
@@ -79,27 +78,21 @@ $(document).ready(
 			
 			}
 		});
-		
-	//$("#refs_display").show();				
-	});		
-	
-
-	
-	
-}); 
-</script>		
+	});
+});
+</script>
 		
 
 
-				<div class="refs" id="refs_full">
-				
-				</div>
+	<div class="refs" id="refs_full">
+	
+	</div>
 
 
 
-				<div class="refs" id="refs_display">
-				
-				</div>
+	<div class="refs" id="refs_display">
+	
+	</div>
 
 
 
