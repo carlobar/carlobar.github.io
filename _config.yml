@@ -1,3 +1,5 @@
 name: Carlos Barreto
 markdown: kramdown
 permalink: /blog/:year/:month/:day/:title
+url: https://carlobar.github.io
+#baseurl: /carlobar.github.io/ 
