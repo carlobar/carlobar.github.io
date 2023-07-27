@@ -6,7 +6,7 @@ permalink: /blog/:year/:month/:day/:title
 # logo: /resume/profile-19_b.jpg
 logo: /assets/img/profile-19_b.jpg
 #logo: /assets/img/logo.png
-description: description
+#description: description
 # remote_theme: pages_theme/minimal@v0.2.0
 # plugins: 
 # - jekyll-remote-theme
