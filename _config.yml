@@ -1,5 +1,7 @@
-name: Carlos Barreto
+Title: Carlos Barreto
 markdown: kramdown
 permalink: /blog/:year/:month/:day/:title
 url: https://carlobar.github.io
-#baseurl: /carlobar.github.io/ 
+baseurl: 
+logo: 
+theme: jekyll_theme_minimal
