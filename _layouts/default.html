@@ -1,67 +1,41 @@
 <!DOCTYPE html>
-	<html>
-		<head>
+    <html>
+        <head>
             <style>
-                ul {
-                list-style-type: none;
-                margin: 0;
-                padding: 0;
-                overflow: hidden;
-                }
 
-                li {
-                float: left;
+                nav ul li {
+                display: inline;
                 }
-
-                li a {
-                display: block;
-                text-align: left;
-                padding: 14px 16px;
-                text-decoration: none;
-                }
-
-            }
 
             </style>
+            <title>{{ page.title }}</title>
+            <!-- link to main stylesheet 
+            <link rel="stylesheet" type="text/css" href="/css/main.css">
+            -->
+            <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
+            {% include head-custom.html %}
+            </head>
+            <body>
 
-			<title>{{ page.title }}</title>
-			<!-- link to main stylesheet 
-			<link rel="stylesheet" type="text/css" href="/css/main.css">
-			-->
-			<link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
-			{% include head-custom.html %}
-		</head>
-		<body>
+            <div class="wrapper">
 
-			<div class="wrapper">
-			
-			<nav>
-			<ul>
-			<li><a href="/">About me</a></li>
-				<li><a href="/resume/resume.pdf">Resume</a></li>
-				<li><a href="/publications">Publications</a></li>
-				<li><a href="/software">Software</a></li>
-				<li><a href="/other">Other</a></li>
-					<li><a href="/blog">Blog</a></li>
-			</ul>
-			</nav>
-			
-						
-			
-			{{ content }}
-			
-			</div>
-			<!-- /.container 
-			<footer>
-	    		<ul>
-	        		<li><a href="mailto:carlobar@gmail.com">email</a></li>
-			</ul>
-			</footer>
-			-->
-			<script src={{ "/assets/js/scale.fix.js" }}></script>
-		</body>
+                <nav>
+                <ul style="list-style-type: none; margin: 0; padding: 0; overflow: hidden;">
+                <li><a href="/">About me</a></li>
+                <li><a href="/resume/resume.pdf">Resume</a></li>
+                <li><a href="/publications">Publications</a></li>
+                <li><a href="/software">Software</a></li>
+                <li><a href="/other">Other</a></li>
+                <li><a href="/blog">Blog</a></li>
+                </ul>
+                </nav>
 
-	</html>
+                {{ content }}
+
+            </div>
+            <script src={{ "/assets/js/scale.fix.js" }}></script>
+        </body>
+    </html>
 
 
 
