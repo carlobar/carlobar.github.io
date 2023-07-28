@@ -2,8 +2,11 @@
 	<html>
 		<head>
 			<title>{{ page.title }}</title>
-			<!-- link to main stylesheet -->
+			<!-- link to main stylesheet 
 			<link rel="stylesheet" type="text/css" href="/css/main.css">
+			-->
+			<link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
+			{% include head-custom.html %}
 		</head>
 		<body>
 			<nav>
@@ -16,7 +19,7 @@
 					<li><a href="/blog">Blog</a></li>
 			</ul>
 			</nav>
-			<div class="container">
+			<div class="wrapper">
 			
 			{{ content }}
 			
