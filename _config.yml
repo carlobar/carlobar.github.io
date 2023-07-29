@@ -11,3 +11,13 @@ logo: /assets/img/profile-19_b.jpg
 # plugins: 
 # - jekyll-remote-theme
 theme: jekyll-theme-minimal
+
+
+
+
+collections:
+	projects:
+		output: true
+		sort_by: date
+		permalink: /projects/:path/
+

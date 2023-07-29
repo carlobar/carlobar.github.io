@@ -2,6 +2,7 @@
 title: Cyber attacks on electricity markets
 description: Attacks on electricity markets
 logo:
+date: 2014-12-01
 ---
 
 I have analyzed possible cyber attacks that exploit vulnerabilities in the infrastructure of

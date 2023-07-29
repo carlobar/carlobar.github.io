@@ -2,6 +2,7 @@
 title: Design of incentives for demand response programs
 description: Economic incentives
 logo: 
+date: 2013-12-01
 ---
 
 New technologies of smart grids improve the decision making capabilities of users; however,
