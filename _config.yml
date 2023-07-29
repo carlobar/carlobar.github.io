@@ -16,8 +16,8 @@ theme: jekyll-theme-minimal
 
 
 collections:
-	projects:
-		output: true
-		sort_by: date
-		permalink: /projects/:path/
+ projects:
+  output: true
+  sort_by: date
+  permalink: /projects/:path/
 
