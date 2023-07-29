@@ -1,7 +1,3 @@
----
-layout: default
----
-
 .block {
 	display: inline-block;
 	width: 200px;
@@ -20,10 +16,10 @@ layout: default
 
 <div class="container">
 	<div class="block">
-		<h3> project.title </h3>
+		<h3> {{ project.title }} </h3>
 		{%- if project.logo -%}
 			<img src="{{ project.logo }}" />
 		{%- endif -%}
-		<p> project.description </p>
+		<p> {{ project.description }} </p>
 	</div>
 </div>
