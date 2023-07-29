@@ -1,7 +1,7 @@
 
 <div style="text-align: center;">
 	<div style="display: inline-block; width: 200px; height: 200px; background-color: lightgray;">
-		<h3> {{ project.title }} </h3>
+		<h3> <a href="{{ project.url | relative_url }}">{{ project.title }}</a> </h3>
 		{%- if project.logo -%}
 			<img src="{{ project.logo }}" width="100px" height="100px" />
 		{%- endif -%}
