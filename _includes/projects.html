@@ -1,0 +1,26 @@
+
+.block {
+	display: inline-block;
+	width: 200px;
+	height: 200px;
+	background-color: lightgray;
+}
+
+.container {
+	text-align: center;
+}
+
+.block img {
+	width: 100px;
+	height: 100px;
+}
+
+<div class="container">
+	<div class="block">
+		<h3> project.title </h3>
+		{%- if project.logo -%}
+			<img src="{{ project.logo }}" />
+		{%- endif -%}
+		<p> project.description </p>
+	</div>
+</div>

@@ -1,0 +1,11 @@
+---
+layout: default
+title: Projects
+---
+
+<h1> page.title </h3>
+
+
+{%- assign list_projects = site.research -%} {%- assign sorted_projects = list_projects | sort: "importance" %} 
+{%- for project in sorted_projects -%} {% include projects.html %} {%- endfor %}
+ 
