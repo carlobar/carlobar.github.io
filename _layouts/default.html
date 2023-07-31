@@ -13,7 +13,7 @@
                 text-decoration: none;
                 }
             </style>
-            <title>{{ page.title }}</title>
+            <title> {{ site.name }} - {{ page.title }}</title>
             <!-- link to main stylesheet 
             <link rel="stylesheet" type="text/css" href="/css/main.css">
             -->
@@ -36,6 +36,7 @@
                 </ul>
                 </nav>
 
+                <h1> {{ site.title }} </h1>
                 {{ content }}
 
             </div>
