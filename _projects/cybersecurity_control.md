@@ -1,11 +1,15 @@
 ---
 title: Cybersecurity in control systems
-description: 
-logo: 
+description:
+logo: /assets/img/cybersecurity_control.jpeg
+link_logo: 
 date: 2013-12-01
 layout: default
 ---
 
+https://deepai.org/machine-learning-model/fantasy-portrait-generator
+cyber security engineering industrial control system
+ 
 
 The security of Cyber-Physical Systems (CPS), like industrial control systems, has become
 a priority due to successful cyber attacks that damage physical processes. Some examples of

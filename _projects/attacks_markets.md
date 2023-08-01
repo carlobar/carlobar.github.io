@@ -1,7 +1,7 @@
 ---
 title: Cyber attacks on electricity markets
 description: 
-logo: 
+logo: /assets/img/cybersecurity_engineering.jpeg
 date: 2014-12-01
 layout: default
 ---
