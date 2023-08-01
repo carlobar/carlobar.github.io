@@ -7,10 +7,6 @@ date: 2016-12-01
 layout: default
 ---
 
-cyber security engineering
-https://deepai.org/machine-learning-model/cyberpunk-generator
-
-
 
 Some challenges in cyber security are not necessarily technical. On the contrary, some
 issues arise due to the lack of economic incentives. For example, the market logic of minimizing costs to maximize profit lead to insecure products. A perfect example of this is the

@@ -7,6 +7,12 @@ layout: default
 ---
 
 
+
+cyber security engineering
+https://deepai.org/machine-learning-model/cyberpunk-generator
+
+
+
 I have analyzed possible cyber attacks that exploit vulnerabilities in the infrastructure of
 electricity markets. For example, an adversary can compromise IoT devices to manipulate
 the information that costumers use to make decisions (e.g., prices of electricity). Such attacks
