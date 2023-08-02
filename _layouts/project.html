@@ -8,17 +8,19 @@ title: About me
     {% if page.logo %}
     <img src="{{ page.logo }}" alt="{{ page.logo_alt }}" style="width=200px; max-height=300px;" />
     
+    {% endif %}
+
+    {% if page.logo_source %}
     <div style="">
-		<a href="{{ project.logo_source }}">Image source</a> 
+		<a href="{{ page.logo_source }}">Image source</a> 
 		
-		</div>
-    
+	</div>
     {% endif %}
 
 </header>
 
 
 <section>
-{{site.content}}
+{{page.content}}
 </section>
 
