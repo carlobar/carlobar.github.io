@@ -1,7 +1,7 @@
 ---
 title: Adversarial machine learning
 description: 
-logo: /asets/img/confused_robot.jpeg
+logo: /assets/img/confused_robot.jpeg
 date: 2019-12-01
 layout: default
 ---
