@@ -5,6 +5,7 @@ cyber security engineering industrial control system
  
 grid-template-columns: repeat( auto-fit minmax(200px, 1fr) );
 
+repeat( auto-fit, minmax(250px, 1fr) );
 
 frog
 https://lexica.art/prompt/653f8868-957f-40a0-935e-a2e7c7dede21
