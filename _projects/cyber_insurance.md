@@ -1,9 +1,10 @@
 ---
 title: Cyber insurance
-description: 
 logo: /assets/img/cyber_businessman.jpeg
+logo_alt: futuristic businessman
+logo_source: https://lexica.art/prompt/f041dd52-c7e7-471c-9f19-91611930fb9a
 date: 2018-12-01
-layout: default
+layout: project
 ---
 
 I have worked on diverse problems concerning cyber insurance, in particular, mechanisms

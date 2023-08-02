@@ -1,9 +1,10 @@
 ---
 title: Adversarial machine learning
-description: 
 logo: /assets/img/confused_robot.jpeg
+logo_alt: confused robot
+logo_source: https://lexica.art/prompt/522cccd9-912d-4f30-ada7-c57d323274f2
 date: 2019-12-01
-layout: default
+layout: project
 ---
 
 

@@ -1,9 +1,10 @@
 ---
 title: Management of cyber risks
-description: 
 logo: /assets/img/strategic_cat.jpeg
+logo_alt: Cat playing chess
+logo_source: https://lexica.art/prompt/b88d5414-77e1-473d-ba7b-47553b0fed2a
 date: 2017-12-01
-layout: default
+layout: project
 ---
 
 

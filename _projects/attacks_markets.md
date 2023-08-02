@@ -1,16 +1,11 @@
 ---
 title: Cyber attacks on electricity markets
-description: 
 logo: /assets/img/malware.jpg
+logo_alt: malware
+logo_source: https://lexica.art/prompt/6555f4d3-e407-4d00-a5a1-3396bba1da78
 date: 2014-12-01
-layout: default
+layout: project
 ---
-
-
-
-cyber security engineering
-https://deepai.org/machine-learning-model/cyberpunk-generator
-
 
 
 I have analyzed possible cyber attacks that exploit vulnerabilities in the infrastructure of
