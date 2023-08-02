@@ -3,7 +3,7 @@ title: Perverse economic incentives
 description: 
 logo: /assets/img/frog.jpg
 date: 2016-12-01
-layout: default
+layout: project
 ---
 
 
