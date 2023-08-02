@@ -3,7 +3,7 @@ layout: default
 title: About me
 ---
 
-<div style="display: inline-grid; column-gap: 20px; grid-template-columns: 200px auto; grid-auto-columns: minmax(200px, auto);">
+<div style="display: inline-grid; column-gap: 20px; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr) );">
     <div style="width: 200px;">
     {% if page.logo %}
     <img src="{{ page.logo }}" alt="{{ page.logo_alt }}" style="width=200px; max-height=300px;" />
