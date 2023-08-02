@@ -3,8 +3,8 @@ layout: default
 title: About me
 ---
 
-<section>
-
+<div style="display:table;">
+    <div style="width: 20%">
     {% if page.logo %}
     <img src="{{ page.logo }}" alt="{{ page.logo_alt }}" style="width=200px; max-height=300px;" />
     
@@ -12,15 +12,14 @@ title: About me
 
     {% if page.logo_source %}
     <div style="">
-		<a href="{{ page.logo_source }}">Image source</a> 
-		
-	</div>
+    <a href="{{ page.logo_source }}">Image source</a> 
+    </div>
     {% endif %}
+    </div>
 
-</section>
-
-
-<section>
-{{page.content}}
-</section>
-
+    <div style="width:80%">
+    <section>
+    {{page.content}}
+    </section>
+    </div>
+</div>
