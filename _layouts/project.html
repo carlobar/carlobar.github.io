@@ -1,10 +1,11 @@
 ---
 layout: default
-title: About me
+title: Project
 ---
 
-<div style="display: inline-grid; column-gap: 20px; grid-template-columns: repeat( auto-fit, minmax(250px, 1fr) );">
+<div style="display: inline-grid; column-gap: 20px; grid-template-columns: minmax(250px, 1fr) 1fr">
     <div style="width: 200px;">
+    
     {% if page.logo %}
     <img src="{{ page.logo }}" alt="{{ page.logo_alt }}" style="width=200px; max-height=300px;" />
     
