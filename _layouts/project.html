@@ -4,17 +4,17 @@ title: Project
 ---
 
 <header>
-<h3>Research</h3>
-<nav>
-<ul style="list-style-type: none;">
-{%- assign list_projects = site.projects -%} {%- assign sorted_projects = list_projects | sort: "date" %} 
-{%- for project in sorted_projects -%} 
+    <h3>Research</h3>
+    <nav>
+    <ul style="list-style-type: none; margin: 0; padding: 0;">
+        {%- assign list_projects = site.projects -%} {%- assign sorted_projects = list_projects | sort: "date" %} 
+        {%- for project in sorted_projects -%} 
 
-<li> <a href="{{ project.url | relative_url }}">{{ project.title }}</a> </li>
+        <li> <a href="{{ project.url | relative_url }}">{{ project.title }}</a> </li>
 
-{%- endfor %}
+        {%- endfor %}
 
-</ul>
+    </ul>
 </nav>
 </header>
 
@@ -37,7 +37,7 @@ title: Project
     </div>
 
     <div style="width:100%;">
-    <h3> {{ page.title }} </h3>
+    <h1> {{ page.title }} </h1>
     {{page.content}}
     </div>
 
