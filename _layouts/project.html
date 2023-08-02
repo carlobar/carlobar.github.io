@@ -4,7 +4,7 @@ title: About me
 ---
 
 <div style="display:table; clear: both;">
-    <div style="width: 20%">
+    <div style="width: 20%; float: left;">
     {% if page.logo %}
     <img src="{{ page.logo }}" alt="{{ page.logo_alt }}" style="width=200px; max-height=300px;" />
     
@@ -17,7 +17,7 @@ title: About me
     {% endif %}
     </div>
 
-    <div style="width:80%">
+    <div style="width:80%;  float: left;">
     <section>
     {{page.content}}
     </section>
