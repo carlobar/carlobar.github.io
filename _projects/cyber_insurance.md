@@ -1,7 +1,7 @@
 ---
 title: Cyber insurance
 description: 
-logo: 
+logo: /assets/img/cyber_businessman.jpeg
 date: 2018-12-01
 layout: default
 ---

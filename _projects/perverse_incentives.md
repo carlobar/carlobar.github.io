@@ -1,8 +1,7 @@
 ---
 title: Perverse economic incentives
 description: 
-logo: /assets/img/one-businessman-holds-glowing-gold-coin-stack-generated-by-ai.jpg
-link_logo: <a href="https://www.freepik.com/free-ai-image/one-businessman-holds-glowing-gold-coin-stack-generated-by-ai_41595737.htm#query=perverse%20economic%20incentives%20security&position=1&from_view=search&track=ais_ai_generated">Image By vecstock</a>
+logo: /assets/img/frog.jpg
 date: 2016-12-01
 layout: default
 ---

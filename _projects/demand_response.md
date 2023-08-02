@@ -1,7 +1,7 @@
 ---
 title: Design of incentives for demand response programs
 description: 
-logo: 
+logo: /assets/img/house_wind.jpeg
 date: 2013-12-01
 layout: default
 ---

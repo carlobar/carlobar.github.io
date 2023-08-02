@@ -1,7 +1,7 @@
 ---
 title: Management of cyber risks
 description: 
-logo: 
+logo: /assets/img/strategic_cat.jpeg
 date: 2017-12-01
 layout: default
 ---
