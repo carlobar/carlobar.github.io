@@ -3,7 +3,7 @@ layout: default
 title: Research
 ---
 
-<div style="display: grid; gap: 10px; grid-template-columns: repeat(auto-fit, 200px); grid-auto-rows: 200px;">
+<div style="display: grid; gap: 10px; grid-template-columns: repeat(auto-fit, 200px); grid-auto-rows: 300px;">
 {%- assign list_projects = site.projects -%} {%- assign sorted_projects = list_projects | sort: "date" %} 
 {%- for project in sorted_projects -%} {% include project.html %} {%- endfor %}
 </div>
