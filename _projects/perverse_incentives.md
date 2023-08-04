@@ -3,7 +3,7 @@ title: Perverse economic incentives
 description: 
 logo: /assets/img/frog.jpg
 logo_alt: greedy frog
-logo_source https://lexica.art/prompt/653f8868-957f-40a0-935e-a2e7c7dede21
+logo_source: https://lexica.art/prompt/653f8868-957f-40a0-935e-a2e7c7dede21
 date: 2016-12-01
 layout: project
 ---
@@ -19,7 +19,7 @@ by colluding with guerrilla groups. I also analyze how to modify the contractual
 reducing the incentives to collude with guerrillas.
 
 <center>
-<div display="grid; grid-template-columns: 1fr 1fr;">
+<div style="display: grid; grid-template-columns: 1fr 1fr;">
 <div style="width: 45%;">
  <img src="/assets/img/relations_initial.png" alt="initial model" width="100%"> 
 </div>
@@ -33,7 +33,7 @@ reducing the incentives to collude with guerrillas.
 
 
 <center>
-<div display="grid; grid-template-columns: 1fr 1fr;">
+<div style="display: grid; grid-template-columns: 1fr 1fr;">
 <div style="width: 45%;">
  <img src="/assets/img/relations_real.png" alt="actual model" width="100%"> 
 </div>
