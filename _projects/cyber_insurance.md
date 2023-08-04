@@ -45,7 +45,7 @@ Concretely, we study how some security practices, like software diversity, can f
 coverage of cyber risks by reducing the correlation between successful cyber attacks.
 
 
-## Selected references
+## Selected publications
 
 1. C. Barreto, A. A. Cardenas, and G. Schwartz, “Cyber-insurance for cyber-physical systems”, in 2018 ieee conference on control technology and applications (ccta) (Aug. 2018),
 pp. 1704–1711.

@@ -16,8 +16,16 @@ control theory to model CPS, build threat models, and study mechanisms to make s
 systems resilient against cyber attacks.
 
 
-## Selected references
+<center>
+<div style="width: 60%;">
+ <img src="/assets/img/state_evolution.png" alt="example evolution attack defense" width="100%"> 
+<p>Behavior of a bioreactor when two actors compete to stabilize and destabilize 
+ a system</p>
+</div>
+</center>
 
+ 
+## Selected publications
 
 1. C. Barreto, A. A. Cardenas, and N. Quijano, “Controllability of dynamical systems: threat
 models and reactive security”, in 4th international conference on decision and game theory
