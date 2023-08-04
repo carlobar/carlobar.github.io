@@ -19,6 +19,16 @@ part, because it is difficult to assess cyber risks (data about cyber incidents 
 the cyber threats evolve in time). The following is a summary of the projects on this field
 
 
+
+
+<center>
+<div style="width: 60%;">
+ <img src="/assets/img/cyber_risks.png" alt="cyber risks" width="100%"> 
+<p>Cyber risks originate from both accidents and intentional actions</p>
+</div>
+</center>
+
+
 ## Analyse regulations on data sharing for insurers
 
 A proposal to address data scarcity consists in enforcing data sharing among insurers. This
