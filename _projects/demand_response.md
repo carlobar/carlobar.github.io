@@ -20,7 +20,7 @@ To mitigate such negative results I leveraged the mechanism design theory (or in
 theory) to find an economic incentive that improves the efficiency of the market.
 
 
-## Selected references
+## Selected publications
 
 1. C. Barreto, E. Mojica-Nava, and N. Quijano, “Design of mechanisms for demand response
 programs”, in 52nd ieee conference on decision and control (Dec. 2013), pp. 1828–1833.

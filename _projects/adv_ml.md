@@ -20,7 +20,7 @@ follow the equilibira of a Stackelberg game, where the defender decides first th
 the prediction systems and the attacker then chooses its attack strategy.
 
 
-## Selected references
+## Selected publications
 
 1. C. Barreto and X. Koutsoukos, “Design of load forecast systems resilient against cyberattacks”, in Decision and game theory for security, edited by T. Alpcan, Y. Vorobeychik,
 J. S. Baras, and G. Dán (2019), pp. 1–20.
