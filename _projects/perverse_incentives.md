@@ -19,7 +19,7 @@ by colluding with guerrilla groups. I also analyze how to modify the contractual
 reducing the incentives to collude with guerrillas.
 
 <center>
-<div style="display: grid; grid-template-columns: 1fr 1fr;">
+<div style="display: grid; grid-template-columns: 1fr 1fr; align-items: center;">
     <div>
      <img src="/assets/img/relations_initial.png" alt="initial model" width="100%"> 
     </div>
