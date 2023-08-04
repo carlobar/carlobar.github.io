@@ -12,14 +12,25 @@ I have analyzed possible cyber attacks that exploit vulnerabilities in the infra
 electricity markets. For example, an adversary can compromise IoT devices to manipulate
 the information that costumers use to make decisions (e.g., prices of electricity). Such attacks
 can change the system’s state as well as the market equilibrium, which can in turn benefit
-some of the market’s participants or cause blackouts. Similar works have been proposed
+some of the market’s participants or cause blackouts. 
+
+
+| ![example attack on bids 1](/assets/img/eq_att_bids_demand.png) | ![example attack on bids 2](/assets/img/eq_att_bids_offer.png) |
+| :---: | :---: |
+| An attack that delays the bids of both buyers and sellers can lead to a higher market clearing price. ||
+
+| ![example impact attacks 1](/assets/img/market_price_attack.png) | ![example impact attack2 2](/assets/img/malicious_attack.png) |
+| :---: | :---: |
+| An attack that increases prices can induce peaks of demand, which in turn can lead to blackouts. ||
+
+Similar works have been proposed
 in the literature; however, they often consider heuristic attacks. On the contrary, in this
 work I formulate the ideal goal of an attacker and then find the precise attack that can
 be implemented to achieve such outcome. Part of this research also focused on designing
 detection schemes and penalties to make this kind of attacks unprofitable.
 
 
-## Selected references
+## Selected publications
 
 1. C. Barreto, A. A. Cardenas, N. Quijano, and E. Mojica-Nava, “CPS: Market Analysis of
 Attacks Against Demand Response in the Smart Grid”, in Proceedings of the 30th annual
