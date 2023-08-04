@@ -20,12 +20,12 @@ reducing the incentives to collude with guerrillas.
 
 <center>
 <div style="display: grid; grid-template-columns: 1fr 1fr;">
-<div style="width: 45%;">
- <img src="/assets/img/relations_initial.png" alt="initial model" width="100%"> 
-</div>
-<div style="width: 45%;">
- <img src="/assets/img/initial_scenario.png" alt="observed attacks" width="100%"> 
-</div>
+    <div>
+     <img src="/assets/img/relations_initial.png" alt="initial model" width="100%"> 
+    </div>
+    <div>
+     <img src="/assets/img/initial_scenario.png" alt="observed attacks" width="100%"> 
+    </div>
 </div>
 <p>  Repair services become necessary due to the large number of attacks</p>
 
@@ -34,16 +34,18 @@ reducing the incentives to collude with guerrillas.
 
 <center>
 <div style="display: grid; grid-template-columns: 1fr 1fr;">
-<div style="width: 45%;">
- <img src="/assets/img/relations_real.png" alt="actual model" width="100%"> 
+    <div>
+     <img src="/assets/img/relations_real.png" alt="actual model" width="100%"> 
+    </div>
+    <div>
+     <img src="/assets/img/real_scenario.png" alt="detailed attacks" width="100%"> 
+    </div>
 </div>
-<div style="width: 45%;">
- <img src="/assets/img/real_scenario.png" alt="detailed attacks" width="100%"> 
-</div>
-</div>
-<p>In 2007   93\% of the attacks on towers took place in the same region. Since 2005 
+<p>In 2007   93% of the attacks on towers took place in the same region. Since 2005 
    a repair company conspired with terrorists to attack electricity towers  </p>
 </center>
+
+
 ## Selected publications
 
 1. C. Barreto and A. A. Cárdenas, “Perverse incentives in security contracts: a case study
