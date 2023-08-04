@@ -15,13 +15,13 @@ can change the system’s state as well as the market equilibrium, which can in 
 some of the market’s participants or cause blackouts. 
 
 
-| ![example attack on bids 1](/assets/img/eq_att_bids_demand.png) | ![example attack on bids 2](/assets/img/eq_att_bids_offer.png) |
-| :---: | :---: |
-| An attack that delays the bids of both buyers and sellers can lead to a higher market clearing price ||
+| ![example attack on bids 2](/assets/img/eq_att_bids_offer.png) |
+| :---: |
+| An attack that delays the bids can lead to a higher market clearing price |
 
-| ![example impact attacks 1](/assets/img/market_price_attack_bids.png) | ![example impact attacks 2](/assets/img/malicious_attack.png) |
-| :---: | :---: |
-| An attack that increases prices can induce peaks of demand, which in turn can lead to blackouts ||
+| ![example impact attacks 2](/assets/img/malicious_attack.png) |
+| :---: |
+| Smart appliances, observing high prices, may try to delay their operation until prices are low. Thus, a sudden drop in the prices can induce peaks of demand |
 
 Similar works have been proposed
 in the literature; however, they often consider heuristic attacks. On the contrary, in this
