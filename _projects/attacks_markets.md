@@ -14,12 +14,22 @@ the information that costumers use to make decisions (e.g., prices of electricit
 can change the system’s state as well as the market equilibrium, which can in turn benefit
 some of the market’s participants or cause blackouts. 
 
+<center>
+<div style="width: 60%;">
+ <img src="/assets/img/eq_att_bids_offer.png" alt="example attack on bids" width="100%"> |
+<p>An attack that delays the bids can lead to a higher market clearing price </p>
+</div>
+</center>
 
-| ![example attack on bids 2](/assets/img/eq_att_bids_offer.png) |
-| :---: |
-| An attack that delays the bids can lead to a higher market clearing price |
+<center>
+<div style="width: 60%;">
+ <img src="/assets/img/malicious_attack.png" alt="example impact attack on bids" width="100%"> |
+<p>Smart appliances, observing high prices, may try to delay their operation until prices are low. Thus, a sudden drop in the prices can induce peaks of demand  </p>
+</div>
+</center>
 
-| ![example impact attacks 2](/assets/img/malicious_attack.png) |
+
+| <img src="/assets/img/malicious_attack.png" alt="example impact attack" width="60%">
 | :---: |
 | Smart appliances, observing high prices, may try to delay their operation until prices are low. Thus, a sudden drop in the prices can induce peaks of demand |
 
