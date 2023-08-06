@@ -3,7 +3,7 @@ title: Design of incentives for demand response programs
 logo: /assets/img/house_wind.jpeg
 logo_alt: house with a wind turbine
 logo_source: https://lexica.art/prompt/f4c5e56b-195f-4a47-b937-a488615f5030
-date: 2013-12-01
+date: 2013-08-01
 layout: project
 ---
 
