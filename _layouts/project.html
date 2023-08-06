@@ -5,7 +5,7 @@ title: Project
 
 <header style="min-height: 400px;">
     <h3>Research</h3>
-    <div style="position: static; ">
+    <div style="position: relative; ">
     <ul style="list-style-type: none; margin: 0; padding: 0;">
         {%- assign list_projects = site.projects -%} {%- assign sorted_projects = list_projects | sort: "date" | reverse %} 
         {%- for project in sorted_projects -%} 
