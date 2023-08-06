@@ -3,7 +3,7 @@ title: Cyber insurance
 logo: /assets/img/cyber_businessman.jpeg
 logo_alt: futuristic businessman
 logo_source: https://lexica.art/prompt/f041dd52-c7e7-471c-9f19-91611930fb9a
-date: 2023-12-01
+date: 2021-12-01
 layout: project
 ---
 
