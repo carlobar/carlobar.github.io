@@ -3,18 +3,10 @@ layout: default
 title: Project
 ---
 
-<style>
-@media (max-width: 400px){
-    #menu {
-        display: none;
-    }
-}
-</style>
-
 <header>
-    <div class="menu" display="inline-block">
+    <div>
     <h3>Research</h3>
-    <p>
+    <nav style="min-width: 350px;">
     <ul>
         {%- assign list_projects = site.projects -%} {%- assign sorted_projects = list_projects | sort: "date" | reverse %} 
         {%- for project in sorted_projects -%} 
@@ -24,7 +16,7 @@ title: Project
         {%- endfor %}
 
     </ul>
-    </p>
+    </nav>
     </div>
 </header>
 
