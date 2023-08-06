@@ -21,7 +21,7 @@ intrusion detection systems), and cyber insurance.
 <div style="width: 60%;">
  <img src="/assets/img/states.png" alt="example markov process" width="100%"> 
 <p> Markov process that describes changes in the security of the system. 
- The system has a vulnerable state $s_0$ and two secure states $s_1$ and $s_2$, which differ in that $s_1$ occurs with insurance</p>
+ The system has a vulnerable state S<sub>0</sub> and two secure states S<sub>1</sub> and S<sub>2</sub>, which differ in that S_1 occurs with insurance</p>
 </div>
 </center>
 

@@ -6,6 +6,6 @@ title: Research
 <h1> {{ page.title }} </h1>
 
 <div style="display: grid; gap: 10px; grid-template-columns: repeat(auto-fit, 200px); grid-auto-rows: 300px;">
-{%- assign list_projects = site.projects -%} {%- assign sorted_projects = list_projects | sort: "date" %} 
+{%- assign list_projects = site.projects -%} {%- assign sorted_projects = list_projects | sort: "date" | reverse %} 
 {%- for project in sorted_projects -%} {% include project.html %} {%- endfor %}
 </div>

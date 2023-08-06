@@ -16,7 +16,7 @@ title: Project
     <div class="menu">
     <p>
     <ul style="list-style-type: none; margin: 0; padding: 0;">
-        {%- assign list_projects = site.projects -%} {%- assign sorted_projects = list_projects | sort: "date" %} 
+        {%- assign list_projects = site.projects -%} {%- assign sorted_projects = list_projects | sort: "date" | reverse %} 
         {%- for project in sorted_projects -%} 
 
         <li> <a href="{{ project.url | relative_url }}">{{ project.title }}</a> </li>

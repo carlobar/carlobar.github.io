@@ -4,7 +4,7 @@ description:
 logo: /assets/img/dali.jpeg
 logo_alt: dali
 logo_source: https://lexica.art/prompt/ef21f56f-53e3-494b-993c-980f295478eb
-date: 2016-12-01
+date: 2012-12-01
 layout: project
 ---
 
