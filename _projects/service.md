@@ -15,6 +15,8 @@ Have served as program committee member of
 * Annual Industrial Control System Security (ICSS) Workshop 2021
 * Conference on Decision and Game Theory for Security (GameSec) 2021, 2022, 2023
 
+Also organized Distinguished Lectures at Digital Futures, a cross-disciplinary research centre in Stockholm, during the spring semester of 2023
+
 ### Reviewer
 
 #### Conferences
