@@ -1,8 +1,17 @@
 <!DOCTYPE html>
     <html>
         <head>
-            <style>
+            <!-- Google tag (gtag.js) -->
+            <script async src="https://www.googletagmanager.com/gtag/js?id=G-49FMP84SGS"></script>
+            <script>
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
 
+              gtag('config', 'G-49FMP84SGS');
+            </script>
+            
+            <style>
                 nav ul li {
                 float: right;
                 }
@@ -13,6 +22,7 @@
                 text-decoration: none;
                 }
             </style>
+            
             <title> {{ site.name }} - {{ page.title }}</title>
             <!-- link to main stylesheet 
             <link rel="stylesheet" type="text/css" href="/css/main.css">
@@ -20,6 +30,7 @@
             <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
             {% include head-custom.html %}
             </head>
+            
             <body>
 
             <div class="wrapper">
